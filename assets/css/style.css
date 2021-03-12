@@ -86,13 +86,6 @@ section {
 /*Hero Style End*/
 
 /*Hero Form Style*/
-.hero-form {
-  background-color: #fce138;
-  padding: 20px;
-  width: 500px;
-  color: #024;
-
-}
 
 .hero-form {
   border-style: solid;
@@ -107,8 +100,6 @@ section {
   width: 500px;
   color: #024e76;
   position: absolute;
-  bottom: 0px;
-  right: 0px;
   bottom: 120px;
   right: 140px;
 }

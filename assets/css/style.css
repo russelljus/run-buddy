@@ -39,14 +39,6 @@ header nav {
   flex-wrap: wrap;
 }
 
-header nav ul li {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-}
-
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
@@ -159,10 +151,6 @@ section {
   color: #fce138
 }
 
-.intro {
-  text-align: center;
-}
-
 .intro h2 {
   font-size: 55px;
   color: #024e76;
@@ -181,7 +169,6 @@ section {
 }
 
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
@@ -190,8 +177,11 @@ section {
   color: #024e76;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 
 .primary-border {
@@ -226,7 +216,6 @@ section {
 }
 
 .trainers {
-  text-align: center;
   overflow: auto;
 }
 
@@ -286,7 +275,6 @@ section {
 
 /* REACH OUT STYLES START */
 .contact {
-  text-align: center;
   background: #024e76;
 }
 
@@ -346,5 +334,8 @@ section {
   color: #fce138;
 }
 
+.flex-row {
+  display: flex;
+}
 
 
